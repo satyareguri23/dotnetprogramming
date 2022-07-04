@@ -1,20 +1,26 @@
 using System;
-class program
+class Program
 {
-public static void AddNum(int x , int y)
+public int x,int y;int r;int k;
+public int AddNum(int x , int y)
 {
-return(x+y);
+
+r = x+y;
+return(r);
 }
-public static void SubNum(int x , int y)
+public int SubNum(int x , int y)
 {
-return(x-y);
+
+k = x+y;
+return(k);
 }
 static void Main()
 {
-AddNum(10,20);
-SubNum(30,20);
-Console.WriteLine("Sum of two numbers is: "+(x+y));
-Console.WriteLine("Sum of two numbers is: "+(x-y));
+Program p = new Program();
+p.AddNum(10,20);
+Console.WriteLine("Sum of two numbers is: "+(p.r));
+p.SubNum(30,20);
+Console.WriteLine("difference of two numbers is: "+(p.k));
 Console.ReadLine();
 }
 }
