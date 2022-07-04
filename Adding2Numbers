@@ -1,0 +1,14 @@
+using System;
+class program
+{
+public static void AddNum(int x , int y)
+{
+return(x+y);
+{
+static void Main()
+{
+AddNum(10,20);
+Console.WriteLine("Sum of two numbers is: "+(x+y));
+Console.ReadLine();
+}
+}
