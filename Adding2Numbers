@@ -1,16 +1,14 @@
 using System;
 class Program
 {
-public int x,int y;int r;int k;
+public int x;int y;int r;int k;
 public int AddNum(int x , int y)
 {
-
 r = x+y;
 return(r);
 }
 public int SubNum(int x , int y)
 {
-
 k = x+y;
 return(k);
 }
